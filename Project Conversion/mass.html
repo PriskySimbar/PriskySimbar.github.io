@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prisky.site</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="mass.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="firstname">Prisky</div>
+                <div class="julukan">NET.</div>
+            </div>
+            <ul class="navigation">
+                <li class="li-navbar"><a href="Home.html" class="active">Home</a></li>
+                <li class="li-navbar"><a href="">My Projects</a></li>
+                <li class="li-navbar"><a href="">About me</a></li>
+                <li><img src="discord-pfp-red.gif" alt=""></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end -->
+
+    <!-- METER -->
+    <div class="meter-container">
+        <div class="meter-box">
+            <p class="judul">Mass Conversion</p>
+            <form action="">
+                <div class="textbox">
+                    <div class="baris col">
+                        <select id="mass1" class="form-select w-25" aria-label="Default select example">
+                            <option selected>Kilogram</option>
+                            <option value="Kilogram">Kilogram</option>
+                            <option value="Gram">Gram</option>
+                            <option value="Miligram">Miligram</option>
+                        </select>
+                        <input name="firstinput" class="form-control w-25" type="text" value="0" aria-label="default input example">
+                        <p class="samadengan">=</p>
+                        <select id="mass2" class="form-select w-25" aria-label="Default select example">
+                            <option selected>Kilogram</option>
+                            <option value="Kilogram">Kilogram</option>
+                            <option value="Gram">Gram</option>
+                            <option value="Miligram">Miligram</option>
+                        </select>
+                        <input name="secondinput" class="form-control w-25" type="text" value="0" aria-label="default input example">
+
+                    </div>
+                    
+                    <div id="button" class="buttondark"><button type="button" class="btn btn-dark"
+                            onclick="mass(this.form)">Convert</button>
+                    </div>
+                    <div class="textcenter">
+                        <p class="samadengan" id="sisa">Sisa:10</p>
+                        <p id="warning" class="samadengan"></p>
+                        <div id="button" class="buttondark"><button type="button" class="btn btn-dark"
+                            onclick="add(this.form)">Press this button and you will get +1 Limit</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

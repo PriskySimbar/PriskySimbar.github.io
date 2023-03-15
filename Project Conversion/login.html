@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body class="bg-dark bg-gradient">
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="firstname">Prisky</div>
+                <div class="julukan">NET.</div>
+            </div>
+            <ul class="navigation">
+                <li class="li-navbar"><a href="Home.html" class="active">Home</a></li>
+                <li class="li-navbar"><a href="#project">My Projects</a></li>
+                <li class="li-navbar"><a href="#aboutme">About me</a></li>
+                <li><img src="discord-pfp-red.gif" alt=""></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container py-5">
+        <div class="bg-dark bg-gradient text-white py-3">
+            <h2 class="text-center">Sebelum menghirup kode segar ... Login Dulu Yuk!</h2>
+            <h1 class="text-center">Awali harimu dengan login secangkir kata</h1>
+        </div>
+    </div>  
+    <form class="bg-dark bg-gradient text-white py-3">
+        <h1 class="text-center">Login Page</h1>
+        <div class="d-flex justify-content-center">
+            <div class="form-group mb-3 text-center">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="form-group 1b-3 text-center">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
+            </div>
+        </div>
+
+        <h1 class="text-center">Your Mood:</h1>
+        <div class="d-flex justify-content-center">
+            <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="happy" name="emote" value="happy">
+            <label for="happy" class="form-check-label">Happy</label>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="sad" name="emote" value="sad">
+            <label for="sad" class="form-check-label">Sad</label>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="form-group">
+                <label for="start-date">Start Date:</label>
+                <input type="date" class="form-control" id="start-date" name="tanggal">
+            </div>
+        </div>  
+
+        <div class="d-flex justify-content-center">
+            <div class="form-group">
+                <legend>Gender:</legend>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+            </div>  
+        </div>
+        <br>
+        <div class="d-flex justify-content-center">
+            <input type="button" name="submit" value="Submit" onclick="login(this.form)" class="btn btn-primary">
+        </div>
+    </form>
+
+    <br>
+    <hr>
+    <h1 class="d-flex justify-content-center text-white">O u t p u t</h1>
+    <div class="d-flex justify-content-center" >
+        <div>
+            <h1 id="result" class="text-white"></h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 110px;
+    background-color: #03001C;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.firstname {
+    color: white;
+    font-weight: 1000;
+}
+
+.julukan {
+    color: #9CFF2E;
+    padding-left: 4px;
+    font-weight: 1000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.navigation>li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navigation>li>a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation {
+    background-color: rgb(255, 255, 255);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.navigation>li>a:hover {
+    background-color: black;
+    color: #9CFF2E;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.navigation>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.navigation>li>img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+
+.perkenalan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #03001C;
+}
+
+.halo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+
+.hai {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.front {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.deskripsi {
+    font-size: large;
+    font-weight: bold;
+}
+
+.listkata {
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.anime {
+    list-style-type: none;
+}
+
+.anime img {
+    align-items: center;
+    height: 260px;
+    width: 500px;
+}
+
+.projek-container {
+    width: 100%;
+    height: 15vh;
+    background-color: #ffffff;
+}
+
+.project {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 100px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.project-desc {
+    padding-left: 100px;
+    margin: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.meter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #03001C;
+}
+
+.meter-box {
+    background: #ffffff;
+    width: 720px;
+    height: 480px;
+    border-radius: 65px;
+}
+
+.judul {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 100%;
+    flex-direction: row;
+}
+
+.buttondark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select1 {
+    flex-direction: row;
+}
+
+.input {
+    flex-direction: row;
+}
+
+.baris {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+.samadengan {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.aboutme {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #03001C;
+    height: 20vh;
+    width: 100%;
+}
+
+.me {
+    color: #ffffff;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mee {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
